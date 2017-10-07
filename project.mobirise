@@ -5,10 +5,11 @@
     "theme": {
       "name": "default",
       "title": "Mobirise",
-      "styling": {}
+      "styling": {},
+      "additionalSetColors": []
     },
     "versionFirst": "4.3.2",
-    "uniqCompNum": 2,
+    "uniqCompNum": 3,
     "versionPublish": "4.3.2",
     "favicon": "",
     "noImageResize": ""
@@ -83,11 +84,11 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-720x1080.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
-                "title": "Cloud City is under construction by the builder - MOBIRISE",
+                "title": "Cloud City is under construction by the builder - CT builder",
                 "contentAlign": "left",
                 "text": "<i>The new city is being built with the state of the art cloud technologies that intend to assist the citizens to live in peace, safe and clean town that full with love and care.&nbsp;</i><br><br><i><br></i>",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> ",
@@ -95,14 +96,14 @@
                 "overlayOpacity": "0.2"
               },
               {
-                "image": "images/slide2.jpg",
-                "active": false,
-                "showButtons": true,
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-720x1080.jpg",
+                "active": true,
+                "showButtons": false,
                 "showText": true,
                 "showTitle": true,
-                "title": "Slide 2",
+                "title": "About Us",
                 "contentAlign": "left",
-                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "text": "We, the cloud city's citizens believe that technologies will bring us &nbsp;love and peace living instead of depending on them. We believe in using environmentally technologies to help us to perform our work effectively and efficiently so that we could spend quality life with our families and friends.&nbsp;<br><br>Our plan is to carefully build the infrastructures in the town follow the dream of the cloud citizens' dream. The architecure is currently designing the infrastructure for an advanced city with love in mind. Love ourself, love our family and love the environment.&nbsp;<br><br><br><br><br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ]
@@ -115,7 +116,9 @@
           "_anchor": "slider-1",
           "_styles": {
             "H1": {
-              "text-align": "left"
+              "text-align": "left",
+              "color": "#ffffff",
+              "font-size": "30px"
             }
           }
         }
