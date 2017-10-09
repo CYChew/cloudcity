@@ -27,3 +27,23 @@
 #content5-9 .mbr-article {
   color: #fff;
 }
+#content5-s .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #fff;
+}
+#content5-s .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-s .mbr-article {
+  color: #fff;
+}
+#menu-m .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-m.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#menu-m .mbr-navbar__hamburger {
+  color: #ffffff;
+}
